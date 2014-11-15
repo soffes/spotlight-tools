@@ -8,5 +8,6 @@ Simple apps for quick access to tasks from Spotlight.
 * [Shut Down](Shut Down)
 * [Log Out](Log Out)
 * [Restart](Restart)
+* [Screen Saver](Screen Saver)
 
 Enjoy.
