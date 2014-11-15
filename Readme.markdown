@@ -10,5 +10,6 @@ Simple apps for quick access to tasks from Spotlight.
 * [Restart](Restart)
 * [Screen Saver](Screen Saver)
 * [Lock](Lock)
+* [Empty Trash](Empty Trash)
 
 Enjoy.

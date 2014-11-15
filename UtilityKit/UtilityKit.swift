@@ -15,6 +15,7 @@ public struct UtilityKit {
 		case ShutDown
 		case LogOut
 		case Sleep
+		case EmptyTrash
 
 		var eventID: AEEventID {
 			switch self {
@@ -26,6 +27,8 @@ public struct UtilityKit {
 				return AEEventID(kAEReallyLogOut)
 			case .Sleep:
 				return AEEventID(kAESleep)
+			case .EmptyTrash:
+				return AEEventID(kAEEmpty)
 			}
 		}
 	}

@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.nothingmagical.utilities.screen-saver</string>
+	<string>com.nothingmagical.utilities.empty-trash</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -36,10 +36,10 @@
 	<array>
 		<dict>
 			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
+			<string>Viewer</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>screensaver</string>
+				<string>emptytrash</string>
 			</array>
 		</dict>
 	</array>

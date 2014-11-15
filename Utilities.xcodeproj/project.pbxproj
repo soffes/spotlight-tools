@@ -19,6 +19,7 @@
 				21AB8F501A17CE160049398E /* PBXTargetDependency */,
 				21C302871A17D0B7002BABF4 /* PBXTargetDependency */,
 				21C302AA1A17D78B002BABF4 /* PBXTargetDependency */,
+				210BD5411A17DA1000B2E09D /* PBXTargetDependency */,
 			);
 			name = Applications;
 			productName = Applications;
@@ -26,6 +27,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		210BD5281A17DA0400B2E09D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210BD5271A17DA0400B2E09D /* AppDelegate.swift */; };
+		210BD52A1A17DA0400B2E09D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210BD5291A17DA0400B2E09D /* Images.xcassets */; };
+		210BD52D1A17DA0400B2E09D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210BD52B1A17DA0400B2E09D /* MainMenu.xib */; };
 		21129D801A17C8EB001CE32B /* UtilityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211512E91A17C2C800D0250C /* UtilityKit.framework */; };
 		21129D821A17C902001CE32B /* UtilityKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 211512E91A17C2C800D0250C /* UtilityKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		21129D8C1A17CA6D001CE32B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21129D8B1A17CA6D001CE32B /* AppDelegate.swift */; };
@@ -59,6 +63,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		210BD5401A17DA1000B2E09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2115129B1A17C29200D0250C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210BD5221A17DA0400B2E09D;
+			remoteInfo = "Empty Trash";
+		};
 		21129D7E1A17C8E8001CE32B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2115129B1A17C29200D0250C /* Project object */;
@@ -179,6 +190,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		210BD5231A17DA0400B2E09D /* Empty Trash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Empty Trash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		210BD5261A17DA0400B2E09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210BD5271A17DA0400B2E09D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		210BD5291A17DA0400B2E09D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		210BD52C1A17DA0400B2E09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		21129D871A17CA6D001CE32B /* Shut Down.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shut Down.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21129D8A1A17CA6D001CE32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21129D8B1A17CA6D001CE32B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -218,6 +234,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		210BD5201A17DA0400B2E09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		21129D841A17CA6D001CE32B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +297,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		210BD5241A17DA0400B2E09D /* Empty Trash */ = {
+			isa = PBXGroup;
+			children = (
+				210BD5271A17DA0400B2E09D /* AppDelegate.swift */,
+				210BD5291A17DA0400B2E09D /* Images.xcassets */,
+				210BD52B1A17DA0400B2E09D /* MainMenu.xib */,
+				210BD5261A17DA0400B2E09D /* Info.plist */,
+			);
+			path = "Empty Trash";
+			sourceTree = "<group>";
+		};
 		21129D881A17CA6D001CE32B /* Shut Down */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +329,7 @@
 				21AB8F331A17CE050049398E /* Restart */,
 				21C3026A1A17D0A4002BABF4 /* Screen Saver */,
 				21C3028D1A17D781002BABF4 /* Lock */,
+				210BD5241A17DA0400B2E09D /* Empty Trash */,
 				211512A41A17C29200D0250C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -309,6 +344,7 @@
 				21AB8F321A17CE050049398E /* Restart.app */,
 				21C302691A17D0A4002BABF4 /* Screen Saver.app */,
 				21C3028C1A17D781002BABF4 /* Lock.app */,
+				210BD5231A17DA0400B2E09D /* Empty Trash.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -395,6 +431,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		210BD5221A17DA0400B2E09D /* Empty Trash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210BD53E1A17DA0400B2E09D /* Build configuration list for PBXNativeTarget "Empty Trash" */;
+			buildPhases = (
+				210BD51F1A17DA0400B2E09D /* Sources */,
+				210BD5201A17DA0400B2E09D /* Frameworks */,
+				210BD5211A17DA0400B2E09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Empty Trash";
+			productName = "Empty Trash";
+			productReference = 210BD5231A17DA0400B2E09D /* Empty Trash.app */;
+			productType = "com.apple.product-type.application";
+		};
 		21129D861A17CA6D001CE32B /* Shut Down */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21129D9E1A17CA6E001CE32B /* Build configuration list for PBXNativeTarget "Shut Down" */;
@@ -532,6 +585,10 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Nothing Magical Inc.";
 				TargetAttributes = {
+					210BD5221A17DA0400B2E09D = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = UP9C8XM22A;
+					};
 					21129D861A17CA6D001CE32B = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = UP9C8XM22A;
@@ -585,11 +642,21 @@
 				21AB8F311A17CE050049398E /* Restart */,
 				21C302681A17D0A4002BABF4 /* Screen Saver */,
 				21C3028B1A17D781002BABF4 /* Lock */,
+				210BD5221A17DA0400B2E09D /* Empty Trash */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		210BD5211A17DA0400B2E09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210BD52A1A17DA0400B2E09D /* Images.xcassets in Resources */,
+				210BD52D1A17DA0400B2E09D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		21129D851A17CA6D001CE32B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -654,6 +721,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		210BD51F1A17DA0400B2E09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210BD5281A17DA0400B2E09D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		21129D831A17CA6D001CE32B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -714,6 +789,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		210BD5411A17DA1000B2E09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210BD5221A17DA0400B2E09D /* Empty Trash */;
+			targetProxy = 210BD5401A17DA1000B2E09D /* PBXContainerItemProxy */;
+		};
 		21129D7F1A17C8E8001CE32B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 211512E81A17C2C800D0250C /* UtilityKit */;
@@ -767,6 +847,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		210BD52B1A17DA0400B2E09D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210BD52C1A17DA0400B2E09D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		21129D8F1A17CA6E001CE32B /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -818,6 +906,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		210BD53A1A17DA0400B2E09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Empty Trash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		210BD53B1A17DA0400B2E09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Empty Trash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		21129D9F1A17CA6E001CE32B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1127,6 +1243,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		210BD53E1A17DA0400B2E09D /* Build configuration list for PBXNativeTarget "Empty Trash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210BD53A1A17DA0400B2E09D /* Debug */,
+				210BD53B1A17DA0400B2E09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		21129D9E1A17CA6E001CE32B /* Build configuration list for PBXNativeTarget "Shut Down" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1197,6 +1321,7 @@
 				21C302A41A17D782002BABF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21C308441A17CD3700BD50D9 /* Build configuration list for PBXNativeTarget "Log Out" */ = {
 			isa = XCConfigurationList;
