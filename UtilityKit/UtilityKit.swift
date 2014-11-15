@@ -30,11 +30,7 @@ public struct UtilityKit {
 		}
 	}
 
-	public static func sendEvent(event: Event) {
-		sendAppleEvent(event.eventID)
-	}
-
-	static func sendAppleEvent(eventID: AEEventID) -> OSStatus {
-		return SendAppleEventToSystemProcess(eventID)
+	public static func performEvent(event: Event) {
+		SendAppleEventToSystemProcess(event.eventID)
 	}
 }

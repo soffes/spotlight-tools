@@ -12,7 +12,7 @@ import UtilityKit
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 	func applicationDidFinishLaunching(aNotification: NSNotification) {
-		UtilityKit.sendEvent(.ShutDown)
+		UtilityKit.performEvent(.ShutDown)
 		NSApplication.sharedApplication().terminate(nil)
 	}
 }
