@@ -15,6 +15,7 @@
 			dependencies = (
 				21129DA91A17CB66001CE32B /* PBXTargetDependency */,
 				21129DAB1A17CB66001CE32B /* PBXTargetDependency */,
+				21C3084C1A17CDAA00BD50D9 /* PBXTargetDependency */,
 			);
 			name = Applications;
 			productName = Applications;
@@ -36,6 +37,11 @@
 		211513201A17C8B300D0250C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2115131F1A17C8B300D0250C /* AppDelegate.swift */; };
 		211513221A17C8B300D0250C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211513211A17C8B300D0250C /* Images.xcassets */; };
 		211513251A17C8B300D0250C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 211513231A17C8B300D0250C /* MainMenu.xib */; };
+		21C3082E1A17CD3700BD50D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C3082D1A17CD3700BD50D9 /* AppDelegate.swift */; };
+		21C308301A17CD3700BD50D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C3082F1A17CD3700BD50D9 /* Images.xcassets */; };
+		21C308331A17CD3700BD50D9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21C308311A17CD3700BD50D9 /* MainMenu.xib */; };
+		21C308481A17CD7600BD50D9 /* UtilityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211512E91A17C2C800D0250C /* UtilityKit.framework */; };
+		21C3084A1A17CD9200BD50D9 /* UtilityKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 211512E91A17C2C800D0250C /* UtilityKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,20 @@
 			remoteGlobalIDString = 211512E81A17C2C800D0250C;
 			remoteInfo = UtilityKit;
 		};
+		21C308461A17CD7300BD50D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2115129B1A17C29200D0250C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211512E81A17C2C800D0250C;
+			remoteInfo = UtilityKit;
+		};
+		21C3084B1A17CDAA00BD50D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2115129B1A17C29200D0250C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C308281A17CD3700BD50D9;
+			remoteInfo = "Log Out";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -92,6 +112,17 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		21C308491A17CD8300BD50D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				21C3084A1A17CD9200BD50D9 /* UtilityKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +142,11 @@
 		2115131F1A17C8B300D0250C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		211513211A17C8B300D0250C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		211513241A17C8B300D0250C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		21C308291A17CD3700BD50D9 /* Log Out.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Log Out.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C3082C1A17CD3700BD50D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21C3082D1A17CD3700BD50D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21C3082F1A17CD3700BD50D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21C308321A17CD3700BD50D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +173,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		21C308261A17CD3700BD50D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C308481A17CD7600BD50D9 /* UtilityKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -157,6 +201,7 @@
 				211512EA1A17C2C800D0250C /* UtilityKit */,
 				2115131C1A17C8B300D0250C /* Sleep */,
 				21129D881A17CA6D001CE32B /* Shut Down */,
+				21C3082A1A17CD3700BD50D9 /* Log Out */,
 				211512A41A17C29200D0250C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -167,6 +212,7 @@
 				211512E91A17C2C800D0250C /* UtilityKit.framework */,
 				2115131B1A17C8B300D0250C /* Sleep.app */,
 				21129D871A17CA6D001CE32B /* Shut Down.app */,
+				21C308291A17CD3700BD50D9 /* Log Out.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,6 +238,17 @@
 				2115131E1A17C8B300D0250C /* Info.plist */,
 			);
 			path = Sleep;
+			sourceTree = "<group>";
+		};
+		21C3082A1A17CD3700BD50D9 /* Log Out */ = {
+			isa = PBXGroup;
+			children = (
+				21C3082D1A17CD3700BD50D9 /* AppDelegate.swift */,
+				21C3082F1A17CD3700BD50D9 /* Images.xcassets */,
+				21C308311A17CD3700BD50D9 /* MainMenu.xib */,
+				21C3082C1A17CD3700BD50D9 /* Info.plist */,
+			);
+			path = "Log Out";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +322,25 @@
 			productReference = 2115131B1A17C8B300D0250C /* Sleep.app */;
 			productType = "com.apple.product-type.application";
 		};
+		21C308281A17CD3700BD50D9 /* Log Out */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C308441A17CD3700BD50D9 /* Build configuration list for PBXNativeTarget "Log Out" */;
+			buildPhases = (
+				21C308251A17CD3700BD50D9 /* Sources */,
+				21C308261A17CD3700BD50D9 /* Frameworks */,
+				21C308271A17CD3700BD50D9 /* Resources */,
+				21C308491A17CD8300BD50D9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21C308471A17CD7300BD50D9 /* PBXTargetDependency */,
+			);
+			name = "Log Out";
+			productName = "Log Out";
+			productReference = 21C308291A17CD3700BD50D9 /* Log Out.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -288,6 +364,10 @@
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = UP9C8XM22A;
 					};
+					21C308281A17CD3700BD50D9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = UP9C8XM22A;
+					};
 				};
 			};
 			buildConfigurationList = 2115129E1A17C29200D0250C /* Build configuration list for PBXProject "Utilities" */;
@@ -307,6 +387,7 @@
 				21129DA41A17CB5D001CE32B /* Applications */,
 				2115131A1A17C8B300D0250C /* Sleep */,
 				21129D861A17CA6D001CE32B /* Shut Down */,
+				21C308281A17CD3700BD50D9 /* Log Out */,
 			);
 		};
 /* End PBXProject section */
@@ -334,6 +415,15 @@
 			files = (
 				211513221A17C8B300D0250C /* Images.xcassets in Resources */,
 				211513251A17C8B300D0250C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C308271A17CD3700BD50D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C308301A17CD3700BD50D9 /* Images.xcassets in Resources */,
+				21C308331A17CD3700BD50D9 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +455,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		21C308251A17CD3700BD50D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C3082E1A17CD3700BD50D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -388,6 +486,16 @@
 			target = 211512E81A17C2C800D0250C /* UtilityKit */;
 			targetProxy = 21129DAC1A17CB7A001CE32B /* PBXContainerItemProxy */;
 		};
+		21C308471A17CD7300BD50D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211512E81A17C2C800D0250C /* UtilityKit */;
+			targetProxy = 21C308461A17CD7300BD50D9 /* PBXContainerItemProxy */;
+		};
+		21C3084C1A17CDAA00BD50D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21C308281A17CD3700BD50D9 /* Log Out */;
+			targetProxy = 21C3084B1A17CDAA00BD50D9 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -403,6 +511,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				211513241A17C8B300D0250C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		21C308311A17CD3700BD50D9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21C308321A17CD3700BD50D9 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -604,6 +720,34 @@
 			};
 			name = Release;
 		};
+		21C308401A17CD3700BD50D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Log Out/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21C308411A17CD3700BD50D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Log Out/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -614,6 +758,7 @@
 				21129DA01A17CA6E001CE32B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21129DA51A17CB5D001CE32B /* Build configuration list for PBXAggregateTarget "Applications" */ = {
 			isa = XCConfigurationList;
@@ -622,6 +767,7 @@
 				21129DA71A17CB5D001CE32B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2115129E1A17C29200D0250C /* Build configuration list for PBXProject "Utilities" */ = {
 			isa = XCConfigurationList;
@@ -649,6 +795,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		21C308441A17CD3700BD50D9 /* Build configuration list for PBXNativeTarget "Log Out" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C308401A17CD3700BD50D9 /* Debug */,
+				21C308411A17CD3700BD50D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

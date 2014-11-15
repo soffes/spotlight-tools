@@ -6,5 +6,6 @@ Simple apps for quick access to tasks from Spotlight.
 
 * [Sleep](Sleep)
 * [Shut Down](Shut Down)
+* [Log Out](Log Out)
 
 Enjoy.

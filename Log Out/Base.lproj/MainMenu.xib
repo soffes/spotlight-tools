@@ -11,14 +11,14 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Shut_Down" customModuleProvider="target"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Log_Out" customModuleProvider="target"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
-                <menuItem title="Shut Down" id="1Xt-HY-uBw">
+                <menuItem title="Log Out" id="1Xt-HY-uBw">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Shut Down" systemMenu="apple" id="uQy-DD-JDr">
+                    <menu key="submenu" title="Log Out" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="Quit" keyEquivalent="q" id="4sb-4s-VLi">
+                            <menuItem title="Quit Log Out" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
                                 </connections>
