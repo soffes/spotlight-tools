@@ -1250,6 +1250,7 @@
 				210BD53B1A17DA0400B2E09D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21129D9E1A17CA6E001CE32B /* Build configuration list for PBXNativeTarget "Shut Down" */ = {
 			isa = XCConfigurationList;
