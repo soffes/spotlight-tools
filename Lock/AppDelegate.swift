@@ -6,10 +6,9 @@
 //  Copyright (c) 2014 Nothing Magical Inc. All rights reserved.
 //
 
-import Cocoa
+import AppKit
 
-@NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+@NSApplicationMain final class AppDelegate: NSObject, NSApplicationDelegate {
 	func applicationDidFinishLaunching(aNotification: NSNotification) {
 		let task = NSTask()
 		task.arguments = ["-suspend"]

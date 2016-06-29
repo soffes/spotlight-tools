@@ -6,10 +6,9 @@
 //  Copyright (c) 2014 Nothing Magical Inc. All rights reserved.
 //
 
-import Cocoa
+import AppKit
 
-@NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+@NSApplicationMain final class AppDelegate: NSObject, NSApplicationDelegate {
 	func applicationDidFinishLaunching(aNotification: NSNotification) {
 		let source = "tell application \"Finder\"\nif length of (items in the trash as string) is 0 then return\nempty trash\nrepeat until (count items of trash) = 0\ndelay 1\nend repeat\nend tell"
 		let script = NSAppleScript(source: source)

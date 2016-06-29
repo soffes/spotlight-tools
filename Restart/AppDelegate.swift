@@ -6,11 +6,10 @@
 //  Copyright (c) 2014 Nothing Magical Inc. All rights reserved.
 //
 
-import Cocoa
+import AppKit
 import UtilityKit
 
-@NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+@NSApplicationMain final class AppDelegate: NSObject, NSApplicationDelegate {
 	func applicationDidFinishLaunching(aNotification: NSNotification) {
 		UtilityKit.performEvent(.Restart)
 		NSApplication.sharedApplication().terminate(nil)
