@@ -9,12 +9,12 @@
 import AppKit
 
 @NSApplicationMain final class AppDelegate: NSObject, NSApplicationDelegate {
-	func applicationDidFinishLaunching(aNotification: NSNotification) {
-		let task = NSTask()
+	func applicationDidFinishLaunching(_ aNotification: Notification) {
+		let task = Process()
 		task.arguments = ["-suspend"]
 		task.launchPath = "/System/Library/CoreServices/Menu Extras/User.menu/Contents/Resources/CGSession"
 		task.launch()
 
-		NSApplication.sharedApplication().terminate(nil)
+		NSApplication.shared().terminate(nil)
 	}
 }

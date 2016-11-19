@@ -9,8 +9,8 @@
 import AppKit
 
 @NSApplicationMain final class AppDelegate: NSObject, NSApplicationDelegate {
-	func applicationDidFinishLaunching(aNotification: NSNotification) {
-		NSWorkspace.sharedWorkspace().openURL(NSURL(fileURLWithPath: "/System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"))
-		NSApplication.sharedApplication().terminate(nil)
+	func applicationDidFinishLaunching(_ aNotification: Notification) {
+		NSWorkspace.shared().open(URL(fileURLWithPath: "/System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"))
+		NSApplication.shared().terminate(nil)
 	}
 }

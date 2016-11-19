@@ -11,29 +11,29 @@ import CoreServices
 
 public struct UtilityKit {
 	public enum Event {
-		case Restart
-		case ShutDown
-		case LogOut
-		case Sleep
-		case EmptyTrash
+		case restart
+		case shutDown
+		case logOut
+		case sleep
+		case emptyTrash
 
 		var eventID: AEEventID {
 			switch self {
-			case .Restart:
+			case .restart:
 				return AEEventID(kAERestart)
-			case .ShutDown:
+			case .shutDown:
 				return AEEventID(kAEShutDown)
-			case .LogOut:
+			case .logOut:
 				return AEEventID(kAEReallyLogOut)
-			case .Sleep:
+			case .sleep:
 				return AEEventID(kAESleep)
-			case .EmptyTrash:
+			case .emptyTrash:
 				return AEEventID(kAEEmpty)
 			}
 		}
 	}
 
-	public static func performEvent(event: Event) {
+	public static func performEvent(_ event: Event) {
 		SendAppleEventToSystemProcess(event.eventID)
 	}
 }

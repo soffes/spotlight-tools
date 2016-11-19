@@ -10,8 +10,8 @@ import AppKit
 import UtilityKit
 
 @NSApplicationMain final class AppDelegate: NSObject, NSApplicationDelegate {
-	func applicationDidFinishLaunching(aNotification: NSNotification) {
-		UtilityKit.performEvent(.Restart)
-		NSApplication.sharedApplication().terminate(nil)
+	func applicationDidFinishLaunching(_ aNotification: Notification) {
+		UtilityKit.performEvent(.restart)
+		NSApplication.shared().terminate(nil)
 	}
 }
