@@ -10,7 +10,11 @@ import AppKit
 
 @NSApplicationMain final class AppDelegate: NSObject, NSApplicationDelegate {
 	func applicationDidFinishLaunching(_ aNotification: Notification) {
-		NSWorkspace.shared.open(URL(fileURLWithPath: "/System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"))
+		let task = Process()
+		task.arguments = ["-a", "ScreenSaverEngine"]
+		task.launchPath = "/usr/bin/open"
+		task.launch()
+
 		NSApplication.shared.terminate(nil)
 	}
 }
