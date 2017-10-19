@@ -14,6 +14,6 @@ import AppKit
 		let script = NSAppleScript(source: source)
 		script?.executeAndReturnError(nil)
 
-		NSApplication.shared().terminate(nil)
+		NSApplication.shared.terminate(nil)
 	}
 }

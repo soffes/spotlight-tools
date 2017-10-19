@@ -15,6 +15,6 @@ import AppKit
 		task.launchPath = "/System/Library/CoreServices/Menu Extras/User.menu/Contents/Resources/CGSession"
 		task.launch()
 
-		NSApplication.shared().terminate(nil)
+		NSApplication.shared.terminate(nil)
 	}
 }

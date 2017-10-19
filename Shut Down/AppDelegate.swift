@@ -12,6 +12,6 @@ import UtilityKit
 @NSApplicationMain final class AppDelegate: NSObject, NSApplicationDelegate {
 	func applicationDidFinishLaunching(_ aNotification: Notification) {
 		UtilityKit.performEvent(.shutDown)
-		NSApplication.shared().terminate(nil)
+		NSApplication.shared.terminate(nil)
 	}
 }
