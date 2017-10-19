@@ -29,12 +29,10 @@
 /* Begin PBXBuildFile section */
 		210BD5281A17DA0400B2E09D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210BD5271A17DA0400B2E09D /* AppDelegate.swift */; };
 		210BD52A1A17DA0400B2E09D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210BD5291A17DA0400B2E09D /* Images.xcassets */; };
-		210BD52D1A17DA0400B2E09D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210BD52B1A17DA0400B2E09D /* MainMenu.xib */; };
 		21129D801A17C8EB001CE32B /* UtilityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211512E91A17C2C800D0250C /* UtilityKit.framework */; };
 		21129D821A17C902001CE32B /* UtilityKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 211512E91A17C2C800D0250C /* UtilityKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		21129D8C1A17CA6D001CE32B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21129D8B1A17CA6D001CE32B /* AppDelegate.swift */; };
 		21129D8E1A17CA6D001CE32B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21129D8D1A17CA6D001CE32B /* Images.xcassets */; };
-		21129D911A17CA6E001CE32B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21129D8F1A17CA6E001CE32B /* MainMenu.xib */; };
 		21129DAE1A17CB82001CE32B /* UtilityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211512E91A17C2C800D0250C /* UtilityKit.framework */; };
 		21129DB01A17CB96001CE32B /* UtilityKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 211512E91A17C2C800D0250C /* UtilityKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		211512EE1A17C2C800D0250C /* UtilityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 211512ED1A17C2C800D0250C /* UtilityKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,22 +41,23 @@
 		211513121A17C60F00D0250C /* SendAppleEventToSystemProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 211513101A17C60F00D0250C /* SendAppleEventToSystemProcess.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211513201A17C8B300D0250C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2115131F1A17C8B300D0250C /* AppDelegate.swift */; };
 		211513221A17C8B300D0250C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211513211A17C8B300D0250C /* Images.xcassets */; };
-		211513251A17C8B300D0250C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 211513231A17C8B300D0250C /* MainMenu.xib */; };
-		2168B23A1F98882B0098D1DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2168B2391F98882A0098D1DA /* Info.plist */; };
+		2168B23E1F9889C10098D1DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2168B23B1F9889BB0098D1DA /* MainMenu.xib */; };
+		2168B23F1F9889C10098D1DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2168B23B1F9889BB0098D1DA /* MainMenu.xib */; };
+		2168B2401F9889C20098D1DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2168B23B1F9889BB0098D1DA /* MainMenu.xib */; };
+		2168B2411F9889C20098D1DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2168B23B1F9889BB0098D1DA /* MainMenu.xib */; };
+		2168B2421F9889C30098D1DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2168B23B1F9889BB0098D1DA /* MainMenu.xib */; };
+		2168B2431F9889C40098D1DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2168B23B1F9889BB0098D1DA /* MainMenu.xib */; };
+		2168B2441F9889C40098D1DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2168B23B1F9889BB0098D1DA /* MainMenu.xib */; };
 		21AB8F371A17CE050049398E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AB8F361A17CE050049398E /* AppDelegate.swift */; };
 		21AB8F391A17CE050049398E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AB8F381A17CE050049398E /* Images.xcassets */; };
-		21AB8F3C1A17CE050049398E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AB8F3A1A17CE050049398E /* MainMenu.xib */; };
 		21AB8F531A17CE1F0049398E /* UtilityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211512E91A17C2C800D0250C /* UtilityKit.framework */; };
 		21AB8F551A17CE2E0049398E /* UtilityKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 211512E91A17C2C800D0250C /* UtilityKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		21C3026E1A17D0A4002BABF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C3026D1A17D0A4002BABF4 /* AppDelegate.swift */; };
 		21C302701A17D0A4002BABF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C3026F1A17D0A4002BABF4 /* Images.xcassets */; };
-		21C302731A17D0A4002BABF4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21C302711A17D0A4002BABF4 /* MainMenu.xib */; };
 		21C302911A17D781002BABF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C302901A17D781002BABF4 /* AppDelegate.swift */; };
 		21C302931A17D781002BABF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C302921A17D781002BABF4 /* Images.xcassets */; };
-		21C302961A17D781002BABF4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21C302941A17D781002BABF4 /* MainMenu.xib */; };
 		21C3082E1A17CD3700BD50D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C3082D1A17CD3700BD50D9 /* AppDelegate.swift */; };
 		21C308301A17CD3700BD50D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C3082F1A17CD3700BD50D9 /* Images.xcassets */; };
-		21C308331A17CD3700BD50D9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21C308311A17CD3700BD50D9 /* MainMenu.xib */; };
 		21C308481A17CD7600BD50D9 /* UtilityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211512E91A17C2C800D0250C /* UtilityKit.framework */; };
 		21C3084A1A17CD9200BD50D9 /* UtilityKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 211512E91A17C2C800D0250C /* UtilityKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -194,11 +193,9 @@
 		210BD5231A17DA0400B2E09D /* Empty Trash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Empty Trash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		210BD5271A17DA0400B2E09D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		210BD5291A17DA0400B2E09D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		210BD52C1A17DA0400B2E09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		21129D871A17CA6D001CE32B /* Shut Down.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shut Down.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21129D8B1A17CA6D001CE32B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21129D8D1A17CA6D001CE32B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		21129D901A17CA6E001CE32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		211512E91A17C2C800D0250C /* UtilityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtilityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		211512EC1A17C2C800D0250C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		211512ED1A17C2C800D0250C /* UtilityKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilityKit.h; sourceTree = "<group>"; };
@@ -208,24 +205,20 @@
 		2115131B1A17C8B300D0250C /* Sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2115131F1A17C8B300D0250C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		211513211A17C8B300D0250C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		211513241A17C8B300D0250C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2168B2391F98882A0098D1DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2168B23C1F9889BB0098D1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		21AB8F321A17CE050049398E /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AB8F361A17CE050049398E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21AB8F381A17CE050049398E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		21AB8F3B1A17CE050049398E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		21C302691A17D0A4002BABF4 /* Screen Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C3026D1A17D0A4002BABF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21C3026F1A17D0A4002BABF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		21C302721A17D0A4002BABF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		21C3028C1A17D781002BABF4 /* Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C302901A17D781002BABF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21C302921A17D781002BABF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		21C302951A17D781002BABF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		21C308291A17CD3700BD50D9 /* Log Out.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Log Out.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C3082D1A17CD3700BD50D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21C3082F1A17CD3700BD50D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		21C308321A17CD3700BD50D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,7 +290,6 @@
 			children = (
 				210BD5271A17DA0400B2E09D /* AppDelegate.swift */,
 				210BD5291A17DA0400B2E09D /* Images.xcassets */,
-				210BD52B1A17DA0400B2E09D /* MainMenu.xib */,
 			);
 			path = "Empty Trash";
 			sourceTree = "<group>";
@@ -307,7 +299,6 @@
 			children = (
 				21129D8B1A17CA6D001CE32B /* AppDelegate.swift */,
 				21129D8D1A17CA6D001CE32B /* Images.xcassets */,
-				21129D8F1A17CA6E001CE32B /* MainMenu.xib */,
 			);
 			path = "Shut Down";
 			sourceTree = "<group>";
@@ -360,7 +351,6 @@
 			children = (
 				2115131F1A17C8B300D0250C /* AppDelegate.swift */,
 				211513211A17C8B300D0250C /* Images.xcassets */,
-				211513231A17C8B300D0250C /* MainMenu.xib */,
 			);
 			path = Sleep;
 			sourceTree = "<group>";
@@ -368,6 +358,7 @@
 		2168B2381F98882A0098D1DA /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				2168B23B1F9889BB0098D1DA /* MainMenu.xib */,
 				2168B2391F98882A0098D1DA /* Info.plist */,
 			);
 			path = Support;
@@ -378,7 +369,6 @@
 			children = (
 				21AB8F361A17CE050049398E /* AppDelegate.swift */,
 				21AB8F381A17CE050049398E /* Images.xcassets */,
-				21AB8F3A1A17CE050049398E /* MainMenu.xib */,
 			);
 			path = Restart;
 			sourceTree = "<group>";
@@ -388,7 +378,6 @@
 			children = (
 				21C3026D1A17D0A4002BABF4 /* AppDelegate.swift */,
 				21C3026F1A17D0A4002BABF4 /* Images.xcassets */,
-				21C302711A17D0A4002BABF4 /* MainMenu.xib */,
 			);
 			path = "Screen Saver";
 			sourceTree = "<group>";
@@ -398,7 +387,6 @@
 			children = (
 				21C302901A17D781002BABF4 /* AppDelegate.swift */,
 				21C302921A17D781002BABF4 /* Images.xcassets */,
-				21C302941A17D781002BABF4 /* MainMenu.xib */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -408,7 +396,6 @@
 			children = (
 				21C3082D1A17CD3700BD50D9 /* AppDelegate.swift */,
 				21C3082F1A17CD3700BD50D9 /* Images.xcassets */,
-				21C308311A17CD3700BD50D9 /* MainMenu.xib */,
 			);
 			path = "Log Out";
 			sourceTree = "<group>";
@@ -666,7 +653,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				210BD52A1A17DA0400B2E09D /* Images.xcassets in Resources */,
-				210BD52D1A17DA0400B2E09D /* MainMenu.xib in Resources */,
+				2168B2421F9889C30098D1DA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,7 +662,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21129D8E1A17CA6D001CE32B /* Images.xcassets in Resources */,
-				21129D911A17CA6E001CE32B /* MainMenu.xib in Resources */,
+				2168B23F1F9889C10098D1DA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,7 +670,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2168B23A1F98882B0098D1DA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,7 +678,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				211513221A17C8B300D0250C /* Images.xcassets in Resources */,
-				211513251A17C8B300D0250C /* MainMenu.xib in Resources */,
+				2168B23E1F9889C10098D1DA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,7 +687,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AB8F391A17CE050049398E /* Images.xcassets in Resources */,
-				21AB8F3C1A17CE050049398E /* MainMenu.xib in Resources */,
+				2168B2411F9889C20098D1DA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,7 +696,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21C302701A17D0A4002BABF4 /* Images.xcassets in Resources */,
-				21C302731A17D0A4002BABF4 /* MainMenu.xib in Resources */,
+				2168B2441F9889C40098D1DA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,7 +705,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21C302931A17D781002BABF4 /* Images.xcassets in Resources */,
-				21C302961A17D781002BABF4 /* MainMenu.xib in Resources */,
+				2168B2431F9889C40098D1DA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,7 +714,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21C308301A17CD3700BD50D9 /* Images.xcassets in Resources */,
-				21C308331A17CD3700BD50D9 /* MainMenu.xib in Resources */,
+				2168B2401F9889C20098D1DA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -861,58 +847,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		210BD52B1A17DA0400B2E09D /* MainMenu.xib */ = {
+		2168B23B1F9889BB0098D1DA /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				210BD52C1A17DA0400B2E09D /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		21129D8F1A17CA6E001CE32B /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21129D901A17CA6E001CE32B /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		211513231A17C8B300D0250C /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				211513241A17C8B300D0250C /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		21AB8F3A1A17CE050049398E /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21AB8F3B1A17CE050049398E /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		21C302711A17D0A4002BABF4 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21C302721A17D0A4002BABF4 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		21C302941A17D781002BABF4 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21C302951A17D781002BABF4 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		21C308311A17CD3700BD50D9 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21C308321A17CD3700BD50D9 /* Base */,
+				2168B23C1F9889BB0098D1DA /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
