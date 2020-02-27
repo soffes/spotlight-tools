@@ -2,6 +2,8 @@
 
 Simple apps for quick access to tasks from Spotlight.
 
+Original idea and icons are by the fantastic [Louie Mantia](http://louiemantia.com).
+
 ## What’s Included
 
 * [Sleep](Sleep)
