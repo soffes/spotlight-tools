@@ -1,4 +1,4 @@
-# Utilities
+# Spotlight Tools
 
 Simple apps for quick access to tasks from Spotlight.
 
