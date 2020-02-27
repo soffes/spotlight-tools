@@ -1,11 +1,3 @@
-//
-//  SendAppleEventToSystemProcess.c
-//  Utilities
-//
-//  Created by Sam Soffes on 11/15/14.
-//  Copyright (c) 2014 Nothing Magical Inc. All rights reserved.
-//
-
 #include "SendAppleEventToSystemProcess.h"
 
 // From https://developer.apple.com/library/mac/qa/qa1134/_index.html
